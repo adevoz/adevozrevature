@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Form</title>
+</head>
+<body>
+<h1 style ="text-align:center" style = "font-size:300%" style="text-align:center"> New Reimbursement Request</h1>
+	
+	<form action = "newrequestform" method = "POST" style="text-align:center">
+	 <div>
+	  <select class="custom-select">
+	  <option selected>Open this select menu</option>
+	  <option value="1">University Course</option>
+	  <option value="2">Seminars</option>
+	  <option value="3">Certification Preparation</option>
+	  <option value="4">Certification</option>
+	  <option value="5">Technical Training</option>
+	  <option value="6">Other</option>
+	  </select>
+	 </div>
+	  <div class="form-group">
+	    <label for="exampleFormControlInput1">Amount</label>
+	    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="100">
+	  </div>
+	  <div>
+	  	<label for="startDate">Start Date</label>
+	  	<input type="date" id ="startDate" name ="classDate"
+	  	min= "2018-01-01" max="2019-1-31">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleFormControlInput1">Location</label>
+	    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="University of Texas">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleFormControlTextarea1">Descriptions</label>
+	    <br>
+	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	  </div>
+</form>
+	
+</body>
+</html>
